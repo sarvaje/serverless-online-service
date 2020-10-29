@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "extensionBundle": {
+      "id": "Microsoft.Azure.Functions.ExtensionBundle",
+      "version": "[1.*, 2.0.0]"
+  },
+  "extensions": {
+    "serviceBus": {
+      "messageHandlerOptions": {
+        "maxAutoRenewDuration": "00:01:00",
+        "maxConcurrentCalls": 5
+      }
+    }
+  }
+}

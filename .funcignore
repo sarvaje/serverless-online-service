@@ -1,0 +1,7 @@
+.git*
+.vscode/
+local.settings.json
+tests/
+.nyc_output/
+coverage/
+node_modules/

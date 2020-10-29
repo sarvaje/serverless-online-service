@@ -28,12 +28,7 @@
     ],
     "include": [
         "@types/**/*.ts",
-        "release/**/*.ts",
-        "scripts/**/*.ts"
-    ],
-    "references": [
-        { "path": "packages/services" },
-        { "path": "packages/utils" },
-        { "path": "packages/worker" }
+        "src/**/*.ts",
+        "tests/**/*.ts"
     ]
 }

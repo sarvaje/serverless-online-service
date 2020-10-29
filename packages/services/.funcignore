@@ -1,7 +1,0 @@
-.git*
-.vscode/
-local.settings.json
-tests/
-scripts/
-.nyc_output/
-coverage/
